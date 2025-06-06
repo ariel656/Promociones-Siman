@@ -1,0 +1,75 @@
+/* Tipografías */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Colores */
+header {
+  background-color: #b30000;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.promo {
+  padding: 2rem;
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #e60000;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-button {
+    width: 100%;
+  }
+}
+📄 eventos.html y suscripcion.html
+Ambas páginas pueden seguir una estructura similar a index.html, solo cambia el contenido del <main>.
+
+Ejemplo de eventos.html:
+html
+Copiar
+Editar
+<main>
+  <section>
+    <h2>Eventos Especiales</h2>
+    <video controls width="100%">
+      <source src="assets/videos/evento1.mp4" type="video/mp4">
+      Tu navegador no soporta video HTML5.
+    </video>
+    <p>Conoce más sobre nuestras experiencias exclusivas para clientes Siman.</p>
+  </section>
+</main>
